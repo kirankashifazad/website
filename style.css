@@ -1,0 +1,418 @@
+ .nav {
+     font-weight: 150px;
+
+ }
+
+
+ .nav {
+     width: 50px;
+ }
+ .nav-link:hover{
+    color: red;
+
+ }
+
+
+
+ .log {
+     width: 100px;
+    text-decoration: none;
+     color: black;
+ }
+
+ .log:hover {
+     color: red;
+ }
+
+ .aa {
+     display: flex;
+ }
+  
+
+    
+  
+ .gray{
+     font-size: 50px;
+     color: rgb(164, 155, 155);
+     
+ }
+
+ .red{
+     font-size: 50px;
+     font-weight:20px;
+
+ }
+
+ .flex {
+     display: flex;
+     padding-left: 100px;
+     padding-top: 30px;
+ }
+
+ .gray {
+     font-weight: 400;
+     color: rgb(46, 43, 43);
+
+
+
+
+ }
+
+ .main {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+
+
+ }
+
+ .red {
+
+
+     font-weight:30px ;
+     color: red;
+     
+ }
+
+ .size {
+     font-size: x-large;
+     color: rgb(57, 52, 52);
+     padding-left: 50px;
+     margin-top: 0;
+     
+     line-height: 0px;
+
+
+ }
+
+ .loc {
+     width: 75%;
+     height: 60px;
+     padding-left: 50px;
+     margin-left: 100px;
+     margin-top: 30px;
+     border: solid 2px red;
+     border-radius: 5px;
+     background-image: url('https://cdn-icons-png.flaticon.com/512/535/535239.png');
+     background-size: 20px;
+     background-position: left;
+     background-repeat: no-repeat;
+     background-position: 15px;
+
+
+
+
+ }
+
+ .sel {
+     width: 75%;
+     height: 60px;
+     padding-left: 50px;
+     margin-left: 100px;
+     margin-top: 30px;
+     border: solid 2px red;
+     border-radius: 5px;
+     background-image: url('https://media.istockphoto.com/id/1330139781/vector/ev-electric-car-with-plug-icon-vector-green-energy-concept-for-graphic-design-logo-web-site.jpg?s=612x612&w=0&k=20&c=NinkuYOVsBI8uPw0YW1ch-wWekNm4xKeaj-6GNkHK_w=');
+     background-size: 30px;
+     background-position: left;
+     background-repeat: no-repeat;
+     background-position: 15px;
+ }
+
+ .in {
+     width: 35%;
+     height: 60px;
+     padding-left: 20px;
+     margin-left: 100px;
+     margin-top: 30px;
+     border: solid 2px red;
+     border-radius: 5px;
+
+ }
+
+ .out {
+     width: 35%;
+     height: 60px;
+     padding-left: 20px;
+     margin-left: 20px;
+     margin-top: 30px;
+     border: solid 2px red;
+     border-radius: 5px;
+ }
+
+ .aa {
+
+     width: 50%;
+     height: 50px;
+     padding-left: 20px;
+     margin-left: 150px;
+     margin-top: 30px;
+     color: rgb(236, 225, 225);
+     border-radius: 20px;
+     text-align: center;
+     justify-content: center;
+     padding-top: 5px;
+
+ }
+
+ h5 {
+     margin-left: 100px;
+     margin-top: 20px;
+ }
+
+ .pos {
+     margin-top: 90px;
+     margin-right: 20px;
+ }
+
+ h1 {
+     font-size: 50px;
+     font-weight: 40px;
+     text-align: center;
+
+ }
+
+ h4 {
+     font-size: 20px;
+     font-weight: 10px;
+     text-align: center;
+ }
+
+ .card {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     text-align: center;
+     font-size: large;
+     font-weight: 50px;
+     margin-top: 10px;
+     
+ }
+ 
+ 
+
+ p {
+     font-weight: 10px;
+     font-size: 20px;
+ }
+
+ button {
+     width: 150px;
+     height: 40px;
+     background-color: rgb(189, 12, 12);
+     color: white;
+     border-radius: 40px;
+ }
+
+ .color {
+     background-color: rgb(166, 33, 33);
+     color: white;
+     margin: 20px;
+     padding: 20px;
+
+ }
+
+ .hone {
+     font-size: 50px;
+     text-align: center;
+     justify-content: center;
+     color: rgb(72, 68, 68);
+
+ }
+ .hsix{
+    font-size: 50px;
+     text-align: center;
+     justify-content: center;
+     color: white(237, 201, 201);
+
+ }
+
+ .hfive {
+     font-size: 25px;
+     justify-content: center;
+     text-align: center;
+     padding: 1%;
+     margin: auto;
+ }
+
+ .size {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     text-align: center;
+     margin-top: 40px;
+
+     color: rgb(43, 40, 40)
+ }
+
+ .logo1 {
+     width: 350px;
+     height: 400px;
+     padding: 10px;
+     margin: 20px;
+     background-color: white;
+     border-radius: 20px;
+     font-size: large;
+ }
+
+ h1 {
+     font-size: larger;
+ }
+
+ .picx {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     text-align: center;
+     font-size: large;
+     font-weight: 50px;
+     margin: 20px;
+     padding: 25px;
+     border-radius: 10px;
+
+
+ }
+ .fastone{
+    justify-content: center;
+    text-align: center;
+    line-height: 30px;
+ }
+
+ .big {
+     font-size: 50px;
+     color: rgb(36, 35, 35);
+ }
+
+ .xx {
+
+     padding: 10px;
+
+     border-radius: 20px;
+ }
+
+ .box {
+     width: 400px;
+     height: 300px;
+     border: 1px gray solid;
+     border-radius: 20px;
+     margin-left: 100px;
+     padding: 20px;
+     justify-content: center;
+ }
+
+ .ch {
+     font-size: 60px;
+     color: rgb(31, 29, 29);
+     text-align: center;
+     justify-content: center;
+     margin-top: 30px;
+
+ }
+
+ .chh {
+
+     font-size: larger;
+     color: rgb(76, 69, 69);
+     justify-content: left;
+     text-align: left;
+     margin-left: 80px;
+ }
+
+ .scare {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     text-align: center;
+     font-size: large;
+     font-weight: 50px;
+     margin: 20px;
+     padding: 25px;
+     border-radius: 30px;
+     margin-top: 20px;
+ }
+
+ .bg {
+
+
+
+     background-image: url(./img/xl.jpg);
+     background-position: center;
+     height: 500px;
+     background-size: cover;
+     margin: 60px;
+     border: 1px solid white;
+     border-radius: 30px;
+     text-align: center;
+     justify-content: center;
+     l
+ }
+
+
+ .cen{
+
+ 
+     width: 160px;
+     height: 60px;
+     background-color: rgb(189, 12, 12);
+     color: white;
+     border-radius: 40px;
+     justify-content: center;
+     align-items: center;
+     margin-top: 30px ;
+ }
+
+ .form {
+     display: flex;
+     flex-direction: row;
+     width: 150px;
+     height: 50px;
+     justify-content: center;
+     text-align: center;
+     margin: auto;
+     background-color: white;
+     margin-top: 20px;
+
+ }
+
+ .yy {
+     border: 1px solid black;
+     background-color: brown;
+     height: 30px;
+
+ }
+
+ .master {
+     display: flex;
+     flex-direction: row;
+     height: 250px;
+     width: 100%px;
+     justify-content: space-between;
+     border-top: 3px red solid;
+     text-align: center;
+     margin: 30px;
+     
+
+ }
+
+ .aha {
+     height: 150px;
+     width: 300px;
+     padding-left: 30px;
+     margin-left: 20px;
+     text-align: left;
+     line height :1px;;
+ }
+
+ .cred {
+    padding bottom:40px ;
+    color: red;
+    margin-left: 30px;
+    
+ }
+ .p{
+    border-top:3px solid rgb(68, 66, 66) ;
+    margin-top: 0px;
+    text-align: center;
+    justify-content: center;
+    
+ }
