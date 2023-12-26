@@ -1,12 +1,16 @@
  .nav {
      font-weight: 150px;
-
- }
-
-
- .nav {
      width: 50px;
+        position: sticky !important;
+        top: 0 !important;
+        z-index: 10000 !important;
+
  }
+
+
+ /* .nav {
+     width: 50px; */
+ /* } */
  .nav-link:hover{
     color: red;
 
@@ -24,22 +28,24 @@
      color: red;
  }
 
- .aa {
+ .nad {
      display: flex;
  }
   
 
     
   
- .gray{
+ .gone{
      font-size: 50px;
      color: rgb(164, 155, 155);
+     font-weight :bolder-60px; 
      
  }
 
- .red{
+ .gtwo{
      font-size: 50px;
-     font-weight:20px;
+     font-weight:60px;
+     color: red;
 
  }
 
@@ -75,9 +81,9 @@
  }
 
  .size {
-     font-size: x-large;
-     color: rgb(57, 52, 52);
-     padding-left: 50px;
+     font-size:20px;
+     color: rgb(173, 158, 158);
+     padding-left: 10px;
      margin-top: 0;
      
      line-height: 0px;
@@ -86,10 +92,10 @@
  }
 
  .loc {
-     width: 75%;
+     width: 85%;
      height: 60px;
      padding-left: 50px;
-     margin-left: 100px;
+     margin-left: 40px;
      margin-top: 30px;
      border: solid 2px red;
      border-radius: 5px;
@@ -99,16 +105,16 @@
      background-repeat: no-repeat;
      background-position: 15px;
 
-
+ 
 
 
  }
 
  .sel {
-     width: 75%;
+     width: 85%;
      height: 60px;
      padding-left: 50px;
-     margin-left: 100px;
+     margin-left: 40px;
      margin-top: 30px;
      border: solid 2px red;
      border-radius: 5px;
@@ -120,45 +126,56 @@
  }
 
  .in {
-     width: 35%;
+      width: 36%;
      height: 60px;
-     padding-left: 20px;
-     margin-left: 100px;
+     padding-left: 50px;
+     margin: 40px;
      margin-top: 30px;
      border: solid 2px red;
      border-radius: 5px;
-
+     background-image: url('./img/in.png');
+     background-size: 30px;
+     background-position: left;
+     background-repeat: no-repeat;
+     background-position: 15px;
+     
  }
 
  .out {
-     width: 35%;
-     height: 60px;
-     padding-left: 20px;
-     margin-left: 20px;
-     margin-top: 30px;
-     border: solid 2px red;
-     border-radius: 5px;
+    width: 36%;
+    height: 60px;
+    padding-left: 50px;
+    margin: 40px;
+    margin-top: 30px;
+    border: solid 2px red;
+    border-radius: 5px;
+    background-image: url('./img/in.png');
+    background-size: 30px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-position: 15px;
+
  }
+ 
 
  .aa {
 
      width: 50%;
      height: 50px;
-     padding-left: 20px;
-     margin-left: 150px;
-     margin-top: 30px;
+     padding-left: 10px;
+     margin-left: 5px;
+     font-size:20px;
+     background-color: rgb(182, 55, 55);
+     border: red solid 2px;
      color: rgb(236, 225, 225);
      border-radius: 20px;
      text-align: center;
      justify-content: center;
-     padding-top: 5px;
+     
 
  }
 
- h5 {
-     margin-left: 100px;
-     margin-top: 20px;
- }
+ 
 
  .pos {
      margin-top: 90px;
@@ -187,6 +204,14 @@
      font-weight: 50px;
      margin-top: 10px;
      
+     
+ }
+ .card1{
+    border: gray solid 2px;
+    margin: 15px;
+    border-radius: 20px;
+    height: 200px;
+    
  }
  
  
@@ -196,18 +221,23 @@
      font-size: 20px;
  }
 
- button {
-     width: 150px;
-     height: 40px;
-     background-color: rgb(189, 12, 12);
+ /* button {
+     width:150px;
+     height:50px;
+     border: 2px red solid;
+     background-color: rgb(203, 43, 43);
      color: white;
      border-radius: 40px;
- }
+     justify-content: center;
+     font-size: 25px;
+ } */
 
  .color {
+    
      background-color: rgb(166, 33, 33);
      color: white;
-     margin: 20px;
+     margin: 60px;
+    
      padding: 20px;
 
  }
@@ -217,7 +247,7 @@
      text-align: center;
      justify-content: center;
      color: rgb(72, 68, 68);
-
+     margin-top: 20px;
  }
  .hsix{
     font-size: 50px;
@@ -280,7 +310,7 @@
 
  .big {
      font-size: 50px;
-     color: rgb(36, 35, 35);
+     color: rgb(85, 82, 82);
  }
 
  .xx {
@@ -302,7 +332,7 @@
 
  .ch {
      font-size: 60px;
-     color: rgb(31, 29, 29);
+     color: rgb(100, 95, 95);
      text-align: center;
      justify-content: center;
      margin-top: 30px;
@@ -344,7 +374,7 @@
      border-radius: 30px;
      text-align: center;
      justify-content: center;
-     l
+     
  }
 
 
@@ -400,19 +430,25 @@
      padding-left: 30px;
      margin-left: 20px;
      text-align: left;
-     line height :1px;;
+     
  }
 
  .cred {
-    padding bottom:40px ;
+    margin-top: 30px;
+    /* padding-bottom:40px ; */
     color: red;
-    margin-left: 30px;
-    
+    margin-left: 30px; 
  }
  .p{
     border-top:3px solid rgb(68, 66, 66) ;
     margin-top: 0px;
     text-align: center;
     justify-content: center;
+    
+ }
+ .ss{
+    margin-left: 20px;
+    border: blue solid 2px;
+    color: blue;
     
  }
